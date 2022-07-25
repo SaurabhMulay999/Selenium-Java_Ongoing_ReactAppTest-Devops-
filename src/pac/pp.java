@@ -10,7 +10,7 @@ public class pp {
 		System.setProperty("webdriver.chrome.driver","/home/saurabh/Downloads/chromedriver");
 		WebDriver d=new ChromeDriver();
 		d.get("https://www.facebook.com");
-		
+
 	}
 
 }
