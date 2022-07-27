@@ -8,8 +8,9 @@ public class gmail {
 
 	public static void runGmail() throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver","/home/saurabh/Downloads/chromedriver");
-		WebDriver d=new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver","/home/saurabh/Downloads/chromedriver");
+		//WebDriver d=new ChromeDriver();
+		ChromeDriver d=(ChromeDriver) Init_1.init();
 		d.get("https://www.gmail.com");
 		d.manage().window().maximize();
 		//your email Address
