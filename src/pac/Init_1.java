@@ -11,5 +11,5 @@ public class Init_1 {
 		WebDriver d=new ChromeDriver();
 		 
 		return d;
-	}
+	} 
 }
